@@ -6,7 +6,7 @@ import shelve
 
 load_dotenv()
 
-st.title("My_Chat_bot")
+st.title("Hello")
 
 USER_AVATAR = "👤"
 BOT_AVATAR = "🤖"
@@ -16,7 +16,7 @@ if "openai_model" not in st.session_state:
     st.session_state["openai_model"] = "gpt-3.5-turbo"
 
 def load_chat_history():
-    with shelve.open("chat_history") as db:
+    with shelve.open("data/chat_history") as db:
         return db.get("messages", [])
 
 def save_chat_history(messages):
