@@ -1,0 +1,63 @@
+# Python compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Python distribution and packaging
+__pycache__/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+.env
+
+# Db file
+chat_history/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# mypy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+.coverage.*
+htmlcov/
+
+# Sphinx documentation
+docs/_build/
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive information
+secrets.py
+credentials.json
+*.pem
+*.key
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
